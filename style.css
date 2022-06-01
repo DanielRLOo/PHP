@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(50, 150, 150);
+}
+
+.gridContainer {
+  display: grid;
+  grid-auto-rows: minmax(100px, 1fr);
+  gap: .7rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  user-select: none;
+}
+
+.gridSubContainer {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 3px;
+}
+
+.gridElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientCard {
+  background-color: #FFF;
+  border: 1px rgb(175, 175, 175) solid;
+  border-radius: 8px;
+  transition: .2s all ease;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.clientCard:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 12px;
+}
