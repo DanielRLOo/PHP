@@ -1,21 +1,4 @@
-<?php
-
-$accounts = [
-  $account1 = [
-    'titular' => 'Michael',
-    'saldo' => 10_000
-  ],
-  $account2 = [
-    'titular' => 'Jim',
-    'saldo' => 10_001
-  ],
-  $account3 = [
-    'titular' => 'Oscar',
-    'saldo' => 10_002
-  ],
-];
-
-?>
+<?php require 'accounts.php' ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
